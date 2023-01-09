@@ -8,3 +8,4 @@ Tips and Tricks for using MP-SPDZ
 - Use `MemValue` to pass parameters across runtime loops
 - For simulating a matrix using an `OptimalOram`, map entry `i,j` to `i * n_columns + j`
 - Prefer iterative algorithms over recursive algorithms
+- When needing to do while loops in which the condition uses a secret-shared number, use `@while_do` instead of a Python `while` loop
